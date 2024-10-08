@@ -26,10 +26,10 @@ const Navbar = () => {
                         </ul>
                     </nav>
                     <div className="flex items-center gap-4">
-                        <Link href="/sign-in" className={buttonVariants({ size: "sm", variant: "ghost" })}>
+                        <Link href="#" className={buttonVariants({ size: "sm", variant: "ghost" })}>
                             Login
                         </Link>
-                        <Link href="/sign-up" className={buttonVariants({ size: "sm", className: "hidden md:flex" })}>
+                        <Link href="#" className={buttonVariants({ size: "sm", className: "hidden md:flex" })}>
                             Start free trial
                         </Link>
                     </div>
